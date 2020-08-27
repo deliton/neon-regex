@@ -1,0 +1,134 @@
+
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #0e0b14;
+  max-height: 100vh;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10vh 5vh;
+  width: 90%;
+  height: 70vh;
+  color:black;
+  font: 20px/28px 'Open Sans', sans-serif;
+}
+
+.left-container {
+  flex:4;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container {
+  flex:8;
+  padding: 0px 10vh;
+  display: block;
+  margin: 0 auto;
+  transform: translateZ(0);
+  -webkit-text-size-adjust: none;
+}
+
+.logo {
+  margin-bottom: 7.5vh;
+}
+
+.logo b{
+  font: 200 9vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #db219d, 0 0 0.5em #db219d, 0 0 0.1em #db219d, 0 10px 3px #000;
+}
+
+select {
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:-moz-focusring {
+  color: transparent !important;
+  text-shadow: 0 0 0 #fff;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 5vh;
+  resize: none;
+  border-radius: 11px;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid hsl(244, 83%, 84%);
+  color: rgb(221, 221, 221);
+  background: hsl(244, 31%, 10%);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  padding: 10px;
+  font: 20px/28px 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+}
+input:focus{
+  transform: scale(1.05);
+}
+
+.backdrop {
+  position: absolute;
+  z-index: 1;
+  border: 2px solid #685972;
+  background-color: transparent;
+  overflow: auto;
+  pointer-events: none;
+  transition: transform 1s;
+}
+
+.highlights {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: rgba(230, 230, 230, 0.993);
+}
+
+textarea {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  border: 2px solid #74637f;
+  border-radius: 0;
+  color: rgba(230, 230, 230, 0.993);;
+  background-color: transparent;
+  overflow: auto;
+  resize: none;
+  transition: transform 1s;
+}
+
+mark {
+  color: #fee;
+  background-color: transparent;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #31db21, 0 0 0.5em #31db21, 0 0 0.1em #31db21, 0 10px 3px #000;
+}
+
+.highlights, textarea {
+  padding: 10px;
+  font: 20px/28px 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+textarea:focus {
+  outline: none;
+}
+
+.backdrop, textarea {
+  width: 95%;
+  height: 100%;
+}
+
