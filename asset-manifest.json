@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/neon-regex/static/css/main.d891737d.chunk.css",
+    "main.js": "/neon-regex/static/js/main.a12f2690.chunk.js",
+    "main.js.map": "/neon-regex/static/js/main.a12f2690.chunk.js.map",
+    "runtime-main.js": "/neon-regex/static/js/runtime-main.7f53c782.js",
+    "runtime-main.js.map": "/neon-regex/static/js/runtime-main.7f53c782.js.map",
+    "static/js/2.6e097b07.chunk.js": "/neon-regex/static/js/2.6e097b07.chunk.js",
+    "static/js/2.6e097b07.chunk.js.map": "/neon-regex/static/js/2.6e097b07.chunk.js.map",
+    "index.html": "/neon-regex/index.html",
+    "precache-manifest.dee3117694656a73f734ac11f9e513fd.js": "/neon-regex/precache-manifest.dee3117694656a73f734ac11f9e513fd.js",
+    "service-worker.js": "/neon-regex/service-worker.js",
+    "static/css/main.d891737d.chunk.css.map": "/neon-regex/static/css/main.d891737d.chunk.css.map",
+    "static/js/2.6e097b07.chunk.js.LICENSE.txt": "/neon-regex/static/js/2.6e097b07.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/neon-regex/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f53c782.js",
+    "static/js/2.6e097b07.chunk.js",
+    "static/css/main.d891737d.chunk.css",
+    "static/js/main.a12f2690.chunk.js"
+  ]
+}
